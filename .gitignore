@@ -1,0 +1,44 @@
+# Unity 生成目录
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+
+# 构建产物
+/Build/
+/Builds/
+
+# IDE 生成文件
+/.vs/
+/.idea/
+/.gradle/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.unityproj
+.vsconfig
+
+# 发布产物
+*.apk
+*.aab
+*.unitypackage
+
+# 本仓库只维护对话系统
+/Assets/*
+!/Assets/SimpleDialogueEditor/
+!/Assets/SimpleDialogueEditor.meta
+/Packages/
+/ProjectSettings/

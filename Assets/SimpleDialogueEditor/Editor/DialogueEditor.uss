@@ -1,0 +1,72 @@
+.dialogue-graph-view {
+    flex-grow: 1;
+}
+
+.dialogue-asset-field {
+    min-width: 240px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.dialogue-name-field {
+    min-width: 190px;
+    margin-right: 8px;
+}
+
+.dialogue-node {
+    min-width: 300px;
+}
+
+.dialogue-node #title-label {
+    flex-grow: 1;
+    min-width: 0;
+    -unity-text-overflow-position: end;
+    text-overflow: ellipsis;
+}
+
+.dialogue-node__type {
+    width: 110px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.dialogue-node__type > .unity-base-field__label {
+    min-width: 0;
+    width: 30px;
+    margin-right: 4px;
+}
+
+.dialogue-node__type.unity-disabled {
+    opacity: 1;
+}
+
+.dialogue-node--text .dialogue-node__type .unity-base-field__input {
+    color: rgb(155, 207, 255);
+}
+
+.dialogue-node--option .dialogue-node__type .unity-base-field__input {
+    color: rgb(220, 181, 255);
+}
+
+.dialogue-node--start .dialogue-node__type .unity-base-field__input {
+    color: rgb(156, 233, 182);
+}
+
+.dialogue-node--end .dialogue-node__type .unity-base-field__input {
+    color: rgb(255, 177, 177);
+}
+
+.dialogue-node__name,
+.dialogue-node__content {
+    margin-top: 6px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+
+.dialogue-node__content .unity-text-field__input {
+    min-height: 80px;
+    white-space: normal;
+}
